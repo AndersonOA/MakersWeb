@@ -30,7 +30,7 @@ public class Contatos {
 				
 			}
 		} catch (Exception e) {
-			throw new RuntimeException("Erro lendo arquivo csv", e);
+			throw new RuntimeException("Erro ss lendo arquivo csv", e);
 		} finally {
 			try {
 				csvReader.close();
